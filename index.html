@@ -614,3 +614,13 @@
         });
 
     
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && popupOverlay.classList.contains('active')) {
+                popupOverlay.classList.remove('active');
+            }
+        });
+    </script>
+    
+</body>
+</html>
